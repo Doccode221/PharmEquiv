@@ -1,0 +1,19 @@
+[project]
+name = "pharmequiv"
+version = "1.0.0"
+description = "Moteur d'équivalence et de recherche de génériques à partir de la base AMM du Sénégal"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+authors = [
+    { name = "Ismail Faye" },
+    { name = "Abdoul Wahab Soumare" },
+]
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 120
+extend-exclude = ["notebooks"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
